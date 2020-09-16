@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ADAbatch18-react-omdb-web/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/ADAbatch18-react-omdb-web/static/js/main.3d347e94.chunk.js",
+    "main.js.map": "/ADAbatch18-react-omdb-web/static/js/main.3d347e94.chunk.js.map",
+    "runtime-main.js": "/ADAbatch18-react-omdb-web/static/js/runtime-main.87db2668.js",
+    "runtime-main.js.map": "/ADAbatch18-react-omdb-web/static/js/runtime-main.87db2668.js.map",
+    "static/js/2.7e58db81.chunk.js": "/ADAbatch18-react-omdb-web/static/js/2.7e58db81.chunk.js",
+    "static/js/2.7e58db81.chunk.js.map": "/ADAbatch18-react-omdb-web/static/js/2.7e58db81.chunk.js.map",
+    "index.html": "/ADAbatch18-react-omdb-web/index.html",
+    "precache-manifest.0d7f9e9b4abaa049987be27bad129467.js": "/ADAbatch18-react-omdb-web/precache-manifest.0d7f9e9b4abaa049987be27bad129467.js",
+    "service-worker.js": "/ADAbatch18-react-omdb-web/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/ADAbatch18-react-omdb-web/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.7e58db81.chunk.js.LICENSE.txt": "/ADAbatch18-react-omdb-web/static/js/2.7e58db81.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87db2668.js",
+    "static/js/2.7e58db81.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.3d347e94.chunk.js"
+  ]
+}
