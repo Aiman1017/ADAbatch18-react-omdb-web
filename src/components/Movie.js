@@ -7,17 +7,18 @@ function Movie(props) {
             <ul>
                 {
                     props.movies.map(val => {
+                        console.log(val)
                         return <Link to={`/detail/${val.imdbID}`}>
-                            <div key={val.imdbID} className={'card'}>
+                            <div key={val.imdbID} className={'card text-center'}>
                                 
                                 <div className={'card-body'}>
                                     <div className={'row'}>
-                                        <div className={'col-3'}>
-                                        <img src={val.Poster} width={150}></img>
+                                        <div>
+                                        <img src={val.Poster} width={300}></img>
                                         </div>
                                     </div>
 
-                                    <div className={'col-9'}>
+                                    <div>
                                         <h4>{val.Title}</h4>
                                         <p>{val.Year}</p>
                                     </div>

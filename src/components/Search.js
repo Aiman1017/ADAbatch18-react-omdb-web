@@ -18,11 +18,16 @@ class Search extends React.Component{
     }
 
     render(){
+        const searchInput = {
+            paddingTop: '4px',
+            paddingBottom: '10px'
+        }
+
         return(
-            <div className={'text-center py-3'}>
+            <div className={'text-center'} style={{marginTop: 25}}>
                 <form>
-                    <input type='text' placeholder='Enter movie name here' value={this.state.value} onChange={this.handleChange}/>
-                    <button onClick={this.handleClick}>Search</button>
+                    <input style={searchInput} type='text' placeholder='Enter movie name here' value={this.state.value} onChange={this.handleChange}/>
+                    <button className={'btn btn-primary'} onClick={this.handleClick}>Search</button>
                 </form> 
             </div>
         );

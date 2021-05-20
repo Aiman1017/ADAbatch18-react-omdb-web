@@ -2,12 +2,10 @@ import React from 'react';
 import Header from './components/Header';
 import Main from './components/Main';
 import Detail from './components/Detail';
-import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
@@ -24,7 +22,6 @@ function App() {
               <Main/>
             </Route>
           </Switch>
-        <Footer/>
       </div>
     </Router>
   );
